@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/TermsOfService.css";
-import Footer2 from "./Footer2";
+import Footer2 from "../components/Footer2";
 import { Link } from "react-router-dom";
 
 
