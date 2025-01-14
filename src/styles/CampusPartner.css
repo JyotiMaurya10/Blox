@@ -1,0 +1,114 @@
+.campus-container {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+  background-color: #ffe600;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 6px;
+}
+.content p {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.launch-button {
+  background-color: #55227d;
+  color: #f5f5f5;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px #000;
+  border: 2px solid #ffe600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 30px;
+}
+.image-container {
+  width: 100%;
+  margin-top: auto;
+}
+.background-stars {
+  position: absolute;
+  bottom: 5rem;
+  left: 8rem;
+  height: auto;
+  width: 10rem;
+}
+.zigzag {
+  position: absolute;
+  right: 0;
+  height: auto;
+  width: 8rem;
+  top: 14rem;
+}
+.circle {
+  position: absolute;
+  right: 8rem;
+  bottom: 12rem;
+  height: auto;
+  width: 5rem;
+}
+.campusHero {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  bottom: 0;
+  width: 60%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .background-stars {
+    bottom: 5rem;
+    left: 4rem;
+    width: 5rem;
+  }
+  .content {
+    padding: 40px;
+  }
+  .zigzag {
+    width: 5rem;
+    top: 44%;
+  }
+  .circle {
+    right: 4rem;
+    width: 3rem;
+  }
+  .campusHero {
+    position: relative;
+    bottom: 0;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .campusHero {
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .content p {
+    font-size: 12px; 
+  }
+  .background-stars {
+    bottom: 30%;
+    left: 0.5rem;
+    width: 5rem;
+  }
+  .zigzag {
+    top: 46%;
+  }
+  .circle {
+    bottom: 37%;
+  }
+}

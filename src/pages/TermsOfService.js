@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/TermsOfService.css";
-import Footer2 from "../components/Footer2";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-
 
 const TermsOfService = () => {
   return (
@@ -12,10 +11,10 @@ const TermsOfService = () => {
         <section className="terms-section">
           <h2>Welcome to Blox!</h2>
           <p>
-            Giggle is owned, managed, and operated by Giggle LLC (hereinafter
-            referred to as the “Owner”, “Us”, “We”, “Our” interchangeably and
-            includes assigns, affiliates, subsidiaries, and successors in
-            interest).
+            Blox is owned, managed, and operated by Blox Technologies Pvt Ltd
+            (hereinafter referred to as the “Owner”, “Us”, “We”, “Our”
+            interchangeably and includes assigns, affiliates, subsidiaries, and
+            successors in interest).
           </p>
           <p>
             If you have any queries or comments about these terms and
@@ -23,14 +22,14 @@ const TermsOfService = () => {
             <Link className="link">(support@bloxsocial.co)</Link>.
           </p>
           <p>
-            The Owner provides a platform marketed under the brand “Giggle”
-            represented as “Giggle” or by way of any other representation. The
+            The Owner provides a platform marketed under the brand “Blox”
+            represented as “Blox” or by way of any other representation. The
             platform allows its members to create unique personal profiles and
             communicate with other members to become Friends.
           </p>
           <p>
             These Terms govern and apply to Your access and use of Our service
-            under “Giggle” will be available via Giggle's Mobile Application and
+            under “Blox” will be available via Blox's Mobile Application and
             website <Link className="link">support@bloxsocial.co</Link> soon.
             The website, our services, and the Mobile Application can be
             accessed, downloaded, or used on any Device and are hereinafter
@@ -128,7 +127,7 @@ const TermsOfService = () => {
             that occur under Your login credentials. If you become aware of
             unauthorized access to Your Account, then You are obligated to
             inform us immediately at the Support Email{" "}
-            <Link className="link">(support@giggletoday.com)</Link>.
+            <Link className="link">(support@bloxsocial.co)</Link>.
           </p>
           <p>
             You shall not create multiple accounts to access and use Our
@@ -188,13 +187,13 @@ const TermsOfService = () => {
             <li>Chat within communities</li>
           </ul>
           <p>
-            For the safety of its members, Giggle has a double opt-in feature
-            that allows communication only when two members like each other’s
+            For the safety of its members, Blox has a double opt-in feature that
+            allows communication only when two members like each other's
             profiles and have indicated mutual interest in friendship. However,
-            Giggle takes no responsibility for the conduct of any member on or
-            off of the Service. You agree to use caution in all interactions
-            with other members, particularly if you decide to communicate off
-            the Service or meet in person. In addition, you agree to review and
+            Blox takes no responsibility for the conduct of any member on or off
+            of the Service. You agree to use caution in all interactions with
+            other members, particularly if you decide to communicate off the
+            Service or meet in person. In addition, you agree to review and
             follow the Safety Tips prior to using the Service. You agree that
             You will not provide Your financial information (for example, your
             credit card or bank account information), or wire or otherwise send
@@ -202,9 +201,9 @@ const TermsOfService = () => {
           </p>
           <p>
             YOU ARE SOLELY RESPONSIBLE FOR YOUR INTERACTIONS WITH OTHER MEMBERS
-            OR FINANCIAL TRANSACTIONS YOU MAKE. YOU UNDERSTAND THAT GIGGLE DOES
+            OR FINANCIAL TRANSACTIONS YOU MAKE. YOU UNDERSTAND THAT BLOX DOES
             NOT CONDUCT CRIMINAL BACKGROUND CHECKS ON ITS MEMBERS OR OTHERWISE
-            INQUIRE INTO THE BACKGROUND OF ITS MEMBERS. GIGGLE MAKES NO
+            INQUIRE INTO THE BACKGROUND OF ITS MEMBERS. BLOX MAKES NO
             REPRESENTATIONS OR WARRANTIES AS TO THE CONDUCT OR COMPATIBILITY OF
             MEMBERS.
           </p>
@@ -466,7 +465,7 @@ const TermsOfService = () => {
             information We may send. However, You may opt out of receiving any,
             or all, of these communications from Us by clicking the unsubscribe
             link or by mailing on Support Email{" "}
-            <Link className="link">(support@giggletoday.com)</Link>.
+            <Link className="link">(support@bloxsocial.co)</Link>.
           </p>
         </section>
         <section className="terms-section">
@@ -629,11 +628,11 @@ const TermsOfService = () => {
             Please send your feedback, comments, requests for technical support:
           </p>
           <p>
-            Support Email: <Link className="link">support@giggletoday.com</Link>
+            Support Email: <Link className="link">support@bloxsocial.co</Link>
           </p>
         </section>
       </div>
-      <Footer2 />
+      <Footer isFull={true} />
     </div>
   );
 };

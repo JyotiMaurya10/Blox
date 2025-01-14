@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/TermsOfService.css";
-import Footer2 from "../components/Footer2";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
@@ -10,11 +10,11 @@ const PrivacyPolicy = () => {
         <h1>Privacy Policy</h1>
         <section className="terms-section">
           <h2>Introduction</h2>
-          <h2 className="subHeading">Effective Date: February 26, 2024</h2>
-          <h2 className="subHeading">Welcome to Giggle!</h2>
+          <h2 className="subHeading">Effective Date: November 30, 2024</h2>
+          <h2 className="subHeading">Welcome to Blox!</h2>
           <br />
           <p>
-            This Privacy Policy describes how Giggle ("we" or "us") collects,
+            This Privacy Policy describes how Blox ("we" or "us") collects,
             uses, and shares your personal information when you use our mobile
             application ("App").
           </p>
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
           <p>
             If You have any questions or comments about this Privacy Policy,
             please contact us at{" "}
-            <Link className="link">support@giggletoday.com</Link>
+            <Link className="link">support@bloxsocial.co</Link>
           </p>
           <br />
           <p>
@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
             Tips, Community Guidelines, and any terms disclosed and agreed to by
             You if You purchase additional features, products, or services We
             offer on the Service hereinafter collectively referred to as the
-            “Terms”).
+            “Terms”.
           </p>
           <p>
             Unless otherwise defined in this Privacy Policy, the terms used in
@@ -567,10 +567,10 @@ const PrivacyPolicy = () => {
             If You believe that Your work has been copied and posted on the
             Service in a way that constitutes copyright infringement, please
             submit a takedown request using the Support email
-            <Link className="link"> support@giggletoday.com</Link>. If You
-            contact us regarding alleged copyright infringement, please be sure
-            to include the evidence of copyright interest along with other
-            written submissions supporting your complaint.
+            <Link className="link"> support@bloxsocial.co</Link>. If You contact
+            us regarding alleged copyright infringement, please be sure to
+            include the evidence of copyright interest along with other written
+            submissions supporting your complaint.
           </p>
           <p>
             The reported issues will be acknowledged within 30 days and shall be
@@ -587,7 +587,7 @@ const PrivacyPolicy = () => {
           </p>
         </section>
       </div>
-      <Footer2 />
+      <Footer isFull={true} />
     </div>
   );
 };

@@ -1,47 +1,51 @@
+import React, { useEffect, useState } from "react";
+
 const LeftSection = () => {
+  const words = ["Discover", "Connect", "Create", "Grow"];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 4160);
+
+    return () => clearInterval(interval);
+  }, [words.length]);
+
   return (
     <div className="left-section">
-      <div className="left-section-padding">
+      <div className="left-section-padding"> 
         <h1>
-          Your Playful <br />
-          Social Playground
-        </h1>
+          The Coolest Way <br />
+          to
+          <div className="vertical-flip-container">
+            <span key={currentIndex} className="word">
+              {words[currentIndex]}
+            </span>
+          </div>
+        </h1> 
         <p>
-          Where anonymity meets connection - dive into exclusive communities,
-          make new friends, and discover your vibe!
+          Not just another app—Blox is your campus sidekick for friends, fun,
+          and growth!
         </p>
-        <div className="buttons">
-          <a className="app-buttons">
-            <div className="button-content">
-              <div className="icon">
-                <img
-                  src="/playstore.png"
-                  className="button-icon"
-                  alt="playStore"
-                />
-              </div>
-              <div className="button-text">
-                <span className="button-text-small">GET IT ON</span>
-                <span className="button-text-large">Google Play</span>
-              </div>
+        <a className="app-buttons">
+          <div className="button-content">
+            <div className="icon">
+              <img
+                src="/playstore.png"
+                className="button-icon"
+                alt="playStore"
+              />
             </div>
-          </a>
-          <a className="app-buttons">
-            <div className="button-content">
-              <div className="icon">
-                <img src="/apple.png" className="button-icon" alt="appleStore" />
-              </div>
-              <div className="button-text">
-                <span className="button-text-small">GET IT ON</span>
-                <span className="button-text-large">App Store</span>
-              </div>
+            <div className="button-text">
+              <span className="button-text-small">GET IT ON</span>
+              <span className="button-text-large">Google Play</span>
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );
 };
-
 
 export default LeftSection;
