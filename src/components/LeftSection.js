@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const LeftSection = () => {
-  const words = ["Discover", "Connect", "Create", "Grow"];
+  const words = ["Discover 🤙", "Connect 🤙", "Create 🤙", "Grow🤙"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -16,8 +16,7 @@ const LeftSection = () => {
     <div className="left-section">
       <div className="left-section-padding"> 
         <h1>
-          The Coolest Way <br />
-          to
+          The Coolest Way <br />to
           <div className="vertical-flip-container">
             <span key={currentIndex} className="word">
               {words[currentIndex]}

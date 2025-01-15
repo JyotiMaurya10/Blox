@@ -12,8 +12,9 @@
 }
 .left-section h1 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900; 
   margin-bottom: 0px;
+  line-height: 1.3;
 }
 .left-section p {
   font-size: 22px;
@@ -88,31 +89,32 @@
   max-width: 36%;
   position: absolute;
 }
-.anonymous {
-  top: 8%;
-  left: 8%;
+.tag1 {
+  top: 12%;
+  left: 10%;
 }
-.playfulMatch {
+.tag2 {
   top: 23.5%;
   right: 8%;
 }
-.focusedDisc {
+.tag3 {
   top: 36%;
   left: 31%;
   transform: translateX(-50%);
 }
-.exclusiveComm {
-  bottom: 17%;
-  right: 7%;
+.tag4 {
+  bottom: 43%;
+  right: 2%;
 }
 .vertical-flip-container {
-  margin-left: 14px;
   position: absolute;
-  display: inline-block;
+  display: contents; 
 }
 .word {
   position: absolute;
   font-size: 48px;
+  font-weight: 900; 
+  margin-left: 14px;
   opacity: 0;
   transform: rotateX(180deg);
   animation: vertical 8s linear infinite;
@@ -211,7 +213,6 @@
   }
   .left-section h1 ,.word  {
     font-size: 32px;
-    line-height: 1.3;
   }
   .left-section p {
     font-size: 14px;
