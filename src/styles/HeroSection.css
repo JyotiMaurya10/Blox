@@ -87,26 +87,56 @@
   transform: translateX(48%);
   height: 90vh;
 }
+
+@keyframes floatRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes floatLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .tag {
   max-width: 36%;
   position: absolute;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 .tag1 {
   top: 12%;
-  left: 10%;
+  left: 16%;
+  animation-name: floatRight;
 }
 .tag2 {
   top: 23.5%;
   right: 8%;
+  animation-name: floatLeft;
 }
 .tag3 {
   top: 36%;
-  left: 31%;
-  transform: translateX(-50%);
+  left: 18%;
+  animation-name: floatRight;
 }
 .tag4 {
   bottom: 43%;
   right: 2%;
+  animation-name: floatLeft;
 }
 @media (max-width: 1150px) {
   .left-section h1 {
