@@ -80,7 +80,14 @@ const PrivacyPolicy = () => {
             information may be collected at Your discretion.
           </p>
           <p>
-            2.2 Sensitive Personal Information: While using Our Service, You may
+            2.2 Resume Data: When you upload your resume to Blox, we collect and
+            process the information contained within it, including but not
+            limited to your education, work experience, and skills. This data is
+            used to enhance your experience on Blox by providing personalized
+            recommendations, job matches, and mentorship connections.
+          </p>
+          <p>
+            2.3 Sensitive Personal Information: While using Our Service, You may
             share sensitive personal information which shall not be shared with
             any third party unless authorized by You or be available in public
             domain. This may include your transactional or payment data which
@@ -90,7 +97,7 @@ const PrivacyPolicy = () => {
             other law in force.
           </p>
           <p>
-            2.3 Non-Personal Identifiable Information or Usage Information:
+            2.4 Non-Personal Identifiable Information or Usage Information:
             Usage Information is collected automatically when using the Service.
             It may include information but not limited to such as Your Device's
             Internet Protocol (IP) address (e.g. IP address), operating system,
@@ -112,7 +119,7 @@ const PrivacyPolicy = () => {
             and log Your use.
           </p>
           <p>
-            2.4 Location Data: We may use and store information about Your
+            2.5 Location Data: We may use and store information about Your
             location if You give Us permission to do so. We use this data to
             provide features of Our Service, to improve and customize Our
             Service.
@@ -124,14 +131,14 @@ const PrivacyPolicy = () => {
             Service.
           </p>
           <p>
-            2.5 Third-Party Service Provider Data: When You choose to link
+            2.6 Third-Party Service Provider Data: When You choose to link
             third-party services with Our Service, we will collect Your user ID
             (or equivalent) for such third-party services as well as any
             information that You may choose to share from that third-party
             service with Us.
           </p>
           <p>
-            2.6 User Feedback: We may collect additional information at other
+            2.7 User Feedback: We may collect additional information at other
             times, including but not limited to, when You provide Feedback,
             modify Your content or email preferences, respond to surveys,
             provide comments, or communicate with Us. This information may
@@ -139,7 +146,7 @@ const PrivacyPolicy = () => {
             such information that You may choose to specifically provide to Us.
           </p>
           <p>
-            2.7 Tracking Technologies and Cookies: We use Cookies and similar
+            2.8 Tracking Technologies and Cookies: We use Cookies and similar
             tracking technologies (For example, Web beacons, Pixels, Software
             Development Kits (SDKs) etc) to track the activity on Our Service
             and store certain information. Some of these Cookies are essential
@@ -212,6 +219,12 @@ const PrivacyPolicy = () => {
             information;
           </p>
           <p>(p) for any other purpose with Your consent.</p>
+          <p>
+            (q) Processing of Resume Data: We use AI-powered tools to parse and
+            analyze the information from your resume. This enables us to improve
+            matchmaking, suggest relevant opportunities, and provide better
+            recommendations based on your skills, experience, and interests.
+          </p>
         </section>
         <section className="terms-section">
           <h2>4. Disclosure Of Your Information</h2>
@@ -292,6 +305,12 @@ const PrivacyPolicy = () => {
             4.3. We will never rent or sell Your personally identifiable
             information to others.
           </p>
+          <p>
+            Your resume data is only accessible within Blox to enhance your user
+            experience. It will not be shared with third parties without your
+            explicit consent. However, we may use AI tools to process and
+            analyze this data to improve platform recommendations and features.
+          </p>
         </section>
         <section className="terms-section">
           <h2>5. User Rights</h2>
@@ -354,6 +373,12 @@ const PrivacyPolicy = () => {
             (i) Right to withdraw consent. You also have the right to withdraw
             Your consent at any time where We rely on your consent to process
             Your personal information.
+          </p>
+          <p>
+            (j) You can remove or update your uploaded resume at any time
+            through your account settings. If you wish to opt out of AI-based
+            processing of your resume, you may contact us at
+            <Link className="link"> support@bloxsocial.co</Link>
           </p>
           <p>
             Please note that for protection of all Users We may ask You to

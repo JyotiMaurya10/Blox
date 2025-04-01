@@ -14,9 +14,9 @@ const Footer = ({ isFull = false }) => {
         </p>
 
         <div className="social-icons">
-          <Link to="https://www.linkedin.com/company/bloxsocial/" target="_blank">
+          {/* <Link to="https://www.linkedin.com/company/bloxsocial/" target="_blank">
             <img src="/linkedin.png" alt="Instagram" />
-          </Link>
+          </Link> */}
           <Link
             to="https://www.instagram.com/blox.social/"
             target="_blank"
